@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amarasté - Site Oficial</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/scripts.js"></script>
+</head>
+<body>
+    <header id="cabecalho">
+        <div id="container">
+            <a href="#"><img src="imagens/logotipo0.png" alt="Logotipo Amarasté" id="logo0"></a> 
+            <nav id="menu">
+                <ul>
+                    <audio id="ringtone">
+                        <source src="sounds/clicktune.wav" type="audio/wav">
+                    </audio>
+                    <li><a href="#" onmouseover="playRingtone()">INÍCIO</a></li>
+                    <li><a href="pages/release.html" onmouseover="playRingtone()">RELEASE</a></li>
+                    <li><a href="pages/music.html" onmouseover="playRingtone()">TOP</a></li>
+                </ul>
+            </nav>
+            <div id="social">
+                <p>REDES SOCIAIS</p>
+                <nav id="redes">
+                    <ul>
+                        <li><a href="https://www.instagram.com/amarastelive/" target="_blank" id="instagram"></a></li>
+                        <li><a href="https://open.spotify.com/artist/3407XfslidAhQKTIaFW24m" target="_blank" id="spotify"></a></li>
+                        <li><a href="https://www.youtube.com/@AmarasteLive" target="_blank" id="youtube"></a></li>
+                        <li><a href="https://www.facebook.com/amaraste.live" target="_blank" id="facebook"></a></li>
+                        <li><a href="https://soundcloud.com/amarastelive" target="_blank" id="soundcloud"></a></li>
+                        <li><a href="#" target="_blank" id="whatsapp"></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div id="background">
+        <video id="video_background" loop>
+            <source src="videos/amarasté_promo.mp4" type="video/mp4">
+        </video>
+        <div id="botoes">
+            <button class="play" onclick="playVideo()"></button>
+            <button class="pause" onclick="pauseVideo()"></button>
+        </div>
+    </div>
+
+    <footer id="rodape">
+        <p>
+            Site desenvolvido como projeto final da disciplina de Introdução à Tecnlogia Web<br>
+            1º período do curso de Sistema de Informação - Semestre 2023.1<br>
+            Centro Universitário do Rio São Francisco - UniRios / Paulo Afonso - BA<br>
+            Aluno: Alexandre Azevedo de Araújo Siqueira - <a href="https://www.instagram.com/manoxande" target="_blank">@manoxande</a>
+        </p>
+    </footer>
+</body>
+</html>
